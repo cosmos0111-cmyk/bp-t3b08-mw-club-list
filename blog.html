@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>망원 클럽 모음 | 망원동 클럽 블로그 - 클럽핑 꿀팁</title>
+    <meta name="description" content="망원 클럽 모음 블로그! 망원동에서 클럽핑 처음? 꿀팁 대방출. 혼밥처럼 혼클럽? 가능. 친구랑 같이 가면 더 재밌고, 망원 클럽 모음에서 내 취향 찾아보자.">
+    <meta name="keywords" content="망원 클럽 모음, 망원동 클럽 블로그, 망원 클럽 꿀팁, 망원 클럽 후기, 망원 클럽 정보, 망원 클럽 첫방문, 망원 클럽 추천, 망원동 클럽핑">
+    <link rel="canonical" href="https://t3b08-mw-club-list.vercel.app/blog">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <!-- OG 메타 -->
+    <meta property="og:title" content="망원 클럽 모음 블로그 | 망원동 클럽핑 완전정복">
+    <meta property="og:description" content="망원동 클럽 처음? 꿀팁 대방출. 혼밥처럼 혼클럽? 가능. 친구랑 같이 가면 더 재밌고, 망원 클럽 모음에서 내 취향 찾아보자.">
+    <meta property="og:image" content="https://t3b08-mw-club-list.vercel.app/og-blog.jpg">
+    <meta property="og:url" content="https://t3b08-mw-club-list.vercel.app/blog">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="ko_KR">
+    <style>
+        /* Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #faf8f5;
+            color: #1a1a1a;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        a {
+            color: #c73a2b;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        a:hover {
+            color: #8e2a1e;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+            line-height: 1.4;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .text-sm {
+            font-size: 0.875rem;
+            color: #666;
+        }
+        .text-xs {
+            font-size: 0.75rem;
+            color: #999;
+        }
+        /* Header & Nav */
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #e5e0d8;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo a {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            letter-spacing: -0.03em;
+        }
+        .logo a:hover {
+            color: #c73a2b;
+        }
+        nav ul {
+            display: flex;
+            gap: 2rem;
+        }
+        nav ul li a {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #333;
+            padding: 0.25rem 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+        nav ul li a:hover,
+        nav ul li a.active {
+            border-bottom-color: #c73a2b;
+            color: #1a1a1a;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 5px;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 25px;
+            height: 2px;
+            background-color: #1a1a1a;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+        .tel-link {
+            background-color: #c73a2b;
+            color: #fff !important;
+            padding: 0.5rem 1.2rem;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background-color 0.2s ease;
+        }
+        .tel-link:hover {
+            background-color: #8e2a1e;
+            color: #fff !important;
+        }
+        /* Blog Article */
+        .blog-article {
+            padding: 4rem 0;
+        }
+        .blog-article .container {
+            max-width: 800px;
+        }
+        .blog-header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+        .blog-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+        }
+        .blog-header .meta {
+            color: #888;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .blog-content h2 {
+            margin-top: 2.5rem;
+            border-bottom: 2px solid #e5e0d8;
+            padding-bottom: 0.5rem;
+        }
+        .blog-content h3 {
+            margin-top: 1.5rem;
+            color: #c73a2b;
+        }
+        .blog-content p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+        }
+        .blog-content ul {
+            list-style: disc;
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .blog-content ul li {
+            margin-bottom: 0.5rem;
+            font-size: 1.05rem;
+        }
+        .blog-content .tip-box {
+            background-color: #fff;
+            border-left: 4px solid #c73a2b;
+            padding: 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin: 2rem 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .blog-content .tip-box p {
+            margin-bottom: 0;
+        }
+        .blog-content .highlight {
+            background-color: #fff3e0;
+            padding: 0.1rem 0.3rem;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        .blog-footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e0d8;
+            text-align: center;
+        }
+        .blog-footer .tags {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        .blog-footer .tags span {
+            background-color: #e5e0d8;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #555;
+        }
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ccc;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        footer p {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #c73a2b;
+        }
+        footer a:hover {
+            color: #ff6b5a;
+        }
+        /* Responsive 768 */
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: flex;
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #fff;
+                border-bottom: 1px solid #e5e0d8;
+                padding: 1rem 0;
+                gap: 0;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            }
+            nav ul.show {
+                display: flex;
+            }
+            nav ul li {
+                text-align: center;
+            }
+            nav ul li a {
+                display: block;
+                padding: 0.75rem 1rem;
+                border-bottom: none;
+            }
+            nav ul li a:hover,
+            nav ul li a.active {
+                background-color: #f5f0eb;
+                border-bottom: none;
+            }
+            .tel-link {
+                display: inline-block;
+                margin: 0.5rem auto;
+            }
+            .header-inner {
+                position: relative;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .blog-header h1 {
+                font-size: 2rem;
+            }
+            .blog-article {
+                padding: 2rem 0;
+            }
+            .blog-content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <div class="logo">
+                <a href="/">망원 클럽 모음</a>
+            </div>
+            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('show')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/list">클럽 리스트</a></li>
+                    <li><a href="/blog" class="active">블로그</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="tel:02-123-4567" class="tel-link">전화 문의</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="blog-article">
+            <div class="container">
+                <div class="blog-header">
+                    <h1>망원 클럽 모음 완전정복: 첫 클럽핑부터 꿀팁까지</h1>
+                    <div class="meta">
+                        <span>2025.06.15</span>
+                        <span>|</span>
+                        <span>by 망원클럽매니아</span>
+                        <span>|</span>
+                        <span>조회 3,847</span>
+                    </div>
+                </div>
+
+                <div class="blog-content">
+                    <p>야, 요즘 망원동 클럽핑이 대세잖아. 근데 막상 "망원 클럽 모음" 검색하면 정보가 너무 많아서 뭐부터 봐야 할지 모르겠다? 맞아, 나도 처음엔 그랬어. 그래서 내가 다 겪어보고 정리했어. 이 글 하나면 너도 망원 클럽 모음 마스터다. 진짜다.</p>
+
+                    <p>사실 나도 작년에 망원으로 이사 오기 전까지는 "클럽=홍대 or 강남" 이렇게만 생각했거든. 근데 망원? 완전 다르더라. 동네 클럽이라 그런지 사람들도 친절하고, 음악 취향도 다양하고. 게다가 <span class="highlight">술값이 홍대보다 20%는 싼 느낌?</span> 지갑 사정에 좋아.</p>
+
+                    <div class="tip-box">
+                        <p><strong>💡 내 꿀팁:</strong> 망원 클럽 모음 중에서 <em>첫 클럽핑</em>이라면 평일 저녁 8시 전에 가는 걸 추천해. 사람 붐비기 전에 분위기 파악하고, 바텐더랑 친해지면 더 재밌어. 나도 첫날에 바텐더가 "첫 방문이죠?" 하면서 칵테일 하나 서비스로 줬거든. 짱이야.</p>
+                    </div>
+
+                    <h2>망원 클럽 모음: 내가 직접 가본 TOP 3</h2>
+                    <p>자, 본격적으로 망원 클럽 모음 이야기 해볼게. 내가 한 달 동안 주 3회씩 돌아다니면서 느낀 점들이다. 주관 100%지만, 취향 저격할 거야.</p>
+
+                    <h3>1. '비트버스' - EDM 덕후들 집합</h3>
+                    <p>여기는 진짜 이름 그대로 비트가 버스처럼 밀려와. 스피커 시스템이 미쳤어. 나는 원래 EDM 별로 안 좋아했는데, 여기 가서 완전 빠졌다. DJ가 관객 반응 보면서 즉석으로 리믹스하는 게 포인트. <span class="highlight">입장료도 1만원</span>이라 부담 없어. 단점? 토요일 밤 10시 이후는 줄이 장난 아님. 일찍 가!</p>
+
+                    <h3>2. '재즈온' - 조용히 술 한잔 하면서 듣는 재즈</h3>
+                    <p>클럽이라고 다 시끄러운 건 아니야. '재즈온'은 라이브 재즈 펍인데, 분위기가 너무 좋아. 혼자 와도 창가 자리에서 위스키 한잔 하면 힐링 그 자체. <span class="highlight">여기서 내 첫 데이트도 성공했어</span> (웃음). 조용히 대화 나누기 좋고, 음악도 귀에 거슬리지 않아. 망원 클럽 모음 중에서 <em>혼클럽</em> 강추!</p>
+
+                    <h3>3. '언더그라운드' - 인디 음악 성지</h3>
+                    <p>요즘 인디씬 뜨잖아? 여기는 라이브 클럽인데, 신인 밴드부터 어느 정도 이름 있는 팀까지 자주 와. 입장료는 보통 1~2만원 선이고, 공연 끝나고 DJ 파티도 있어. 내가 여기서 모르는 밴드 하나 봤는데 너무 좋아서 앨범까지 샀어. <span class="highlight">망원 클럽 모음의 숨은 보석</span> 같은 곳.</p>
+
+                    <h2>처음 가는 너를 위한 꿀팁 5가지</h2>
+                    <p>망원 클럽 모음 처음이라면 이거만 기억해. 내가 삽질한 경험담이니까 믿어도 돼.</p>
+                    <ul>
+                        <li><strong>신발은 편한 걸로:</strong> 하이힐? 운동화? 당연히 운동화. 망원 클럽들은 대부분 스탠딩 위주라 3시간 서 있으면 발 뒤꿈치가 아파. 나도 처음에 멋 부려서 구두 갔다가 발바닥에 물집 잡혔어.</li>
+                        <li><strong>현금 챙겨:</strong> 요즘 다 카드 되지만, 간혹 카드 단말기 오류나는 곳 있어. 현금 3~5만원 있으면 비상시에 좋아. 특히 입장료 현금 할인하는 곳도 있더라.</li>
+                        <li><strong>친구랑 가면 더 좋아:</strong> 혼자도 괜찮지만, 친구랑 가면 훨씬 재밌어. 특히 '비트버스' 같은 EDM 클럽은 같이 미치면(?) 더 즐거움. 나는 친구랑 가서 새벽 3시까지 춤췄어.</li>
+                        <li><strong>
+</body>
+</html>
