@@ -1,402 +1,400 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>망원 클럽 모음 | 망원동 클럽 블로그 - 클럽핑 꿀팁</title>
-    <meta name="description" content="망원 클럽 모음 블로그! 망원동에서 클럽핑 처음? 꿀팁 대방출. 혼밥처럼 혼클럽? 가능. 친구랑 같이 가면 더 재밌고, 망원 클럽 모음에서 내 취향 찾아보자.">
-    <meta name="keywords" content="망원 클럽 모음, 망원동 클럽 블로그, 망원 클럽 꿀팁, 망원 클럽 후기, 망원 클럽 정보, 망원 클럽 첫방문, 망원 클럽 추천, 망원동 클럽핑">
-    <link rel="canonical" href="https://mangwon-club-hot.namanavi.com/blog.html">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <!-- OG 메타 -->
-    <meta property="og:title" content="망원 클럽 모음 | 망원동 클럽 블로그 - 클럽핑 꿀팁">
-    <meta property="og:description" content="망원 클럽 모음 블로그! 망원동에서 클럽핑 처음? 꿀팁 대방출. 혼밥처럼 혼클럽? 가능. 친구랑 같이 가면 더 재밌고, 망원 클럽 모음에서 내 취향 찾아보자.">
-    <meta property="og:image" content="https://t3b08-mw-club-list.vercel.app/og-blog.jpg">
-    <meta property="og:url" content="https://mangwon-club-hot.namanavi.com/blog.html">
-    <meta property="og:type" content="article">
-    <meta property="og:locale" content="ko_KR">
-    <style>
-        /* Reset & Base */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background-color: #faf8f5;
-            color: #1a1a1a;
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        a {
-            color: #c73a2b;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-        a:hover {
-            color: #8e2a1e;
-        }
-        ul, ol {
-            list-style: none;
-        }
-        /* Container */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        /* Typography */
-        h1, h2, h3, h4 {
-            font-weight: 700;
-            letter-spacing: -0.02em;
-        }
-        h1 {
-            font-size: 2.5rem;
-            line-height: 1.2;
-            margin-bottom: 1rem;
-        }
-        h2 {
-            font-size: 2rem;
-            line-height: 1.3;
-            margin-bottom: 0.75rem;
-        }
-        h3 {
-            font-size: 1.5rem;
-            line-height: 1.4;
-            margin-bottom: 0.5rem;
-        }
-        p {
-            margin-bottom: 1rem;
-        }
-        .text-sm {
-            font-size: 0.875rem;
-            color: #666;
-        }
-        .text-xs {
-            font-size: 0.75rem;
-            color: #999;
-        }
-        /* Header & Nav */
-        header {
-            background-color: #fff;
-            border-bottom: 1px solid #e5e0d8;
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .header-inner {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .logo a {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #1a1a1a;
-            letter-spacing: -0.03em;
-        }
-        .logo a:hover {
-            color: #c73a2b;
-        }
-        nav ul {
-            display: flex;
-            gap: 2rem;
-        }
-        nav ul li a {
-            font-size: 0.95rem;
-            font-weight: 500;
-            color: #333;
-            padding: 0.25rem 0;
-            border-bottom: 2px solid transparent;
-            transition: border-color 0.2s ease;
-        }
-        nav ul li a:hover,
-        nav ul li a.active {
-            border-bottom-color: #c73a2b;
-            color: #1a1a1a;
-        }
-        .hamburger-menu {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 5px;
-        }
-        .hamburger-menu span {
-            display: block;
-            width: 25px;
-            height: 2px;
-            background-color: #1a1a1a;
-            border-radius: 2px;
-            transition: all 0.3s ease;
-        }
-        .tel-link {
-            background-color: #c73a2b;
-            color: #fff !important;
-            padding: 0.5rem 1.2rem;
-            border-radius: 25px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            transition: background-color 0.2s ease;
-        }
-        .tel-link:hover {
-            background-color: #8e2a1e;
-            color: #fff !important;
-        }
-        /* Blog Article */
-        .blog-article {
-            padding: 4rem 0;
-        }
-        .blog-article .container {
-            max-width: 800px;
-        }
-        .blog-header {
-            margin-bottom: 3rem;
-            text-align: center;
-        }
-        .blog-header h1 {
-            font-size: 2.8rem;
-            margin-bottom: 0.5rem;
-        }
-        .blog-header .meta {
-            color: #888;
-            font-size: 0.9rem;
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            flex-wrap: wrap;
-        }
-        .blog-content h2 {
-            margin-top: 2.5rem;
-            border-bottom: 2px solid #e5e0d8;
-            padding-bottom: 0.5rem;
-        }
-        .blog-content h3 {
-            margin-top: 1.5rem;
-            color: #c73a2b;
-        }
-        .blog-content p {
-            margin-bottom: 1.2rem;
-            font-size: 1.05rem;
-        }
-        .blog-content ul {
-            list-style: disc;
-            padding-left: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
-        .blog-content ul li {
-            margin-bottom: 0.5rem;
-            font-size: 1.05rem;
-        }
-        .blog-content .tip-box {
-            background-color: #fff;
-            border-left: 4px solid #c73a2b;
-            padding: 1.5rem;
-            border-radius: 0 8px 8px 0;
-            margin: 2rem 0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-        }
-        .blog-content .tip-box p {
-            margin-bottom: 0;
-        }
-        .blog-content .highlight {
-            background-color: #fff3e0;
-            padding: 0.1rem 0.3rem;
-            border-radius: 3px;
-            font-weight: 600;
-        }
-        .blog-footer {
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 1px solid #e5e0d8;
-            text-align: center;
-        }
-        .blog-footer .tags {
-            display: flex;
-            justify-content: center;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-            margin-bottom: 1rem;
-        }
-        .blog-footer .tags span {
-            background-color: #e5e0d8;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            color: #555;
-        }
-        /* Footer */
-        footer {
-            background-color: #1a1a1a;
-            color: #ccc;
-            padding: 3rem 0;
-            text-align: center;
-        }
-        footer p {
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
-        }
-        footer a {
-            color: #c73a2b;
-        }
-        footer a:hover {
-            color: #ff6b5a;
-        }
-        /* Responsive 768 */
-        @media (max-width: 768px) {
-            .hamburger-menu {
-                display: flex;
-            }
-            nav ul {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background-color: #fff;
-                border-bottom: 1px solid #e5e0d8;
-                padding: 1rem 0;
-                gap: 0;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            }
-            nav ul.show {
-                display: flex;
-            }
-            nav ul li {
-                text-align: center;
-            }
-            nav ul li a {
-                display: block;
-                padding: 0.75rem 1rem;
-                border-bottom: none;
-            }
-            nav ul li a:hover,
-            nav ul li a.active {
-                background-color: #f5f0eb;
-                border-bottom: none;
-            }
-            .tel-link {
-                display: inline-block;
-                margin: 0.5rem auto;
-            }
-            .header-inner {
-                position: relative;
-            }
-            h1 {
-                font-size: 2rem;
-            }
-            .blog-header h1 {
-                font-size: 2rem;
-            }
-            .blog-article {
-                padding: 2rem 0;
-            }
-            .blog-content p {
-                font-size: 1rem;
-            }
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>망원 클럽 모음 | 망원동 클럽 블로그 - 클럽핑 꿀팁</title>
+ <meta name="description" content="망원 클럽 모음 블로그! 망원동에서 클럽핑 처음? 꿀팁 대방출. 혼밥처럼 혼클럽? 가능. 친구랑 같이 가면 더 재밌고, 망원 클럽 모음에서 내 취향 찾아보자.">
+ <meta name="keywords" content="망원 클럽 모음, 망원동 클럽 블로그, 망원 클럽 꿀팁, 망원 클럽 후기, 망원 클럽 정보, 망원 클럽 첫방문, 망원 클럽 추천, 망원동 클럽핑">
+ <link rel="canonical" href="https://mangwon-club-hot.namanavi.com/blog.html">
+ <!-- OG 메타 -->
+ <meta property="og:title" content="망원 클럽 모음 | 망원동 클럽 블로그 - 클럽핑 꿀팁">
+ <meta property="og:description" content="망원 클럽 모음 블로그! 망원동에서 클럽핑 처음? 꿀팁 대방출. 혼밥처럼 혼클럽? 가능. 친구랑 같이 가면 더 재밌고, 망원 클럽 모음에서 내 취향 찾아보자.">
+ <meta property="og:image" content="https://t3b08-mw-club-list.vercel.app/og-blog.jpg">
+ <meta property="og:url" content="https://mangwon-club-hot.namanavi.com/blog.html">
+ <meta property="og:type" content="article">
+ <meta property="og:locale" content="ko_KR">
+ <style>
+ /* Reset & Base */
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ font-size: 16px;
+ scroll-behavior: smooth;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+ background-color: #faf8f5;
+ color: #1a1a1a;
+ line-height: 1.6;
+ -webkit-font-smoothing: antialiased;
+ }
+ img {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ }
+ a {
+ color: #c73a2b;
+ text-decoration: none;
+ transition: color 0.2s ease;
+ }
+ a:hover {
+ color: #8e2a1e;
+ }
+ ul, ol {
+ list-style: none;
+ }
+ /* Container */
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 20px;
+ }
+ /* Typography */
+ h1, h2, h3, h4 {
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ }
+ h1 {
+ font-size: 2.5rem;
+ line-height: 1.2;
+ margin-bottom: 1rem;
+ }
+ h2 {
+ font-size: 2rem;
+ line-height: 1.3;
+ margin-bottom: 0.75rem;
+ }
+ h3 {
+ font-size: 1.5rem;
+ line-height: 1.4;
+ margin-bottom: 0.5rem;
+ }
+ p {
+ margin-bottom: 1rem;
+ }
+ .text-sm {
+ font-size: 0.875rem;
+ color: #666;
+ }
+ .text-xs {
+ font-size: 0.75rem;
+ color: #999;
+ }
+ /* Header & Nav */
+ header {
+ background-color: #fff;
+ border-bottom: 1px solid #e5e0d8;
+ padding: 1rem 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+ .header-inner {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+ .logo a {
+ font-size: 1.5rem;
+ font-weight: 700;
+ color: #1a1a1a;
+ letter-spacing: -0.03em;
+ }
+ .logo a:hover {
+ color: #c73a2b;
+ }
+ nav ul {
+ display: flex;
+ gap: 2rem;
+ }
+ nav ul li a {
+ font-size: 0.95rem;
+ font-weight: 500;
+ color: #333;
+ padding: 0.25rem 0;
+ border-bottom: 2px solid transparent;
+ transition: border-color 0.2s ease;
+ }
+ nav ul li a:hover,
+ nav ul li a.active {
+ border-bottom-color: #c73a2b;
+ color: #1a1a1a;
+ }
+ .hamburger-menu {
+ display: none;
+ flex-direction: column;
+ gap: 5px;
+ cursor: pointer;
+ background: none;
+ border: none;
+ padding: 5px;
+ }
+ .hamburger-menu span {
+ display: block;
+ width: 25px;
+ height: 2px;
+ background-color: #1a1a1a;
+ border-radius: 2px;
+ transition: all 0.3s ease;
+ }
+ .tel-link {
+ background-color: #c73a2b;
+ color: #fff !important;
+ padding: 0.5rem 1.2rem;
+ border-radius: 25px;
+ font-weight: 600;
+ font-size: 0.9rem;
+ transition: background-color 0.2s ease;
+ }
+ .tel-link:hover {
+ background-color: #8e2a1e;
+ color: #fff !important;
+ }
+ /* Blog Article */
+ .blog-article {
+ padding: 4rem 0;
+ }
+ .blog-article .container {
+ max-width: 800px;
+ }
+ .blog-header {
+ margin-bottom: 3rem;
+ text-align: center;
+ }
+ .blog-header h1 {
+ font-size: 2.8rem;
+ margin-bottom: 0.5rem;
+ }
+ .blog-header .meta {
+ color: #888;
+ font-size: 0.9rem;
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+ flex-wrap: wrap;
+ }
+ .blog-content h2 {
+ margin-top: 2.5rem;
+ border-bottom: 2px solid #e5e0d8;
+ padding-bottom: 0.5rem;
+ }
+ .blog-content h3 {
+ margin-top: 1.5rem;
+ color: #c73a2b;
+ }
+ .blog-content p {
+ margin-bottom: 1.2rem;
+ font-size: 1.05rem;
+ }
+ .blog-content ul {
+ list-style: disc;
+ padding-left: 1.5rem;
+ margin-bottom: 1.5rem;
+ }
+ .blog-content ul li {
+ margin-bottom: 0.5rem;
+ font-size: 1.05rem;
+ }
+ .blog-content .tip-box {
+ background-color: #fff;
+ border-left: 4px solid #c73a2b;
+ padding: 1.5rem;
+ border-radius: 0 8px 8px 0;
+ margin: 2rem 0;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+ }
+ .blog-content .tip-box p {
+ margin-bottom: 0;
+ }
+ .blog-content .highlight {
+ background-color: #fff3e0;
+ padding: 0.1rem 0.3rem;
+ border-radius: 3px;
+ font-weight: 600;
+ }
+ .blog-footer {
+ margin-top: 4rem;
+ padding-top: 2rem;
+ border-top: 1px solid #e5e0d8;
+ text-align: center;
+ }
+ .blog-footer .tags {
+ display: flex;
+ justify-content: center;
+ gap: 0.75rem;
+ flex-wrap: wrap;
+ margin-bottom: 1rem;
+ }
+ .blog-footer .tags span {
+ background-color: #e5e0d8;
+ padding: 0.3rem 0.8rem;
+ border-radius: 20px;
+ font-size: 0.85rem;
+ color: #555;
+ }
+ /* Footer */
+ footer {
+ background-color: #1a1a1a;
+ color: #ccc;
+ padding: 3rem 0;
+ text-align: center;
+ }
+ footer p {
+ margin-bottom: 0.5rem;
+ font-size: 0.9rem;
+ }
+ footer a {
+ color: #c73a2b;
+ }
+ footer a:hover {
+ color: #ff6b5a;
+ }
+ /* Responsive 768 */
+ @media (max-width: 768px) {
+ .hamburger-menu {
+ display: flex;
+ }
+ nav ul {
+ display: none;
+ flex-direction: column;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ right: 0;
+ background-color: #fff;
+ border-bottom: 1px solid #e5e0d8;
+ padding: 1rem 0;
+ gap: 0;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+ }
+ nav ul.show {
+ display: flex;
+ }
+ nav ul li {
+ text-align: center;
+ }
+ nav ul li a {
+ display: block;
+ padding: 0.75rem 1rem;
+ border-bottom: none;
+ }
+ nav ul li a:hover,
+ nav ul li a.active {
+ background-color: #f5f0eb;
+ border-bottom: none;
+ }
+ .tel-link {
+ display: inline-block;
+ margin: 0.5rem auto;
+ }
+ .header-inner {
+ position: relative;
+ }
+ h1 {
+ font-size: 2rem;
+ }
+ .blog-header h1 {
+ font-size: 2rem;
+ }
+ .blog-article {
+ padding: 2rem 0;
+ }
+ .blog-content p {
+ font-size: 1rem;
+ }
+ }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <div class="logo">
-                <a href="/">망원 클럽 모음</a>
-            </div>
-            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('show')">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav>
-                <ul>
-                    <li><a href="/">홈</a></li>
-                    <li><a href="/list">클럽 리스트</a></li>
-                    <li><a href="/blog" class="active">블로그</a></li>
-                    <li><a href="/faq">FAQ</a></li>
-                    <li><a href="tel:02-123-4567" class="tel-link">전화 문의</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="container header-inner">
+ <div class="logo">
+ <a href="/">망원 클럽 모음</a>
+ </div>
+ <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('show')">
+ 
+ 
+ 
+ </button>
+ <nav>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/list">클럽 리스트</a></li>
+ <li><a href="/blog" class="active">블로그</a></li>
+ <li><a href="/faq">FAQ</a></li>
+ 
+ </ul>
+ </nav>
+ </div>
+ </header>
 
 <main class="container">
-  <article class="blog-article">
-    <header class="blog-header">
-      <p class="meta text-sm">지역정보 · 클럽 이용가이드</p>
-      <h1>망원동 클럽, 유형별로 나눠보면 이렇습니다</h1>
-      <p class="meta text-xs">망원 · 클럽 · 상권 안내</p>
-    </header>
-    <div class="blog-content">
-      <p>망원동은 홍대와 합정 상권을 걸어서 오갈 수 있는 위치 덕분에 다양한 성격의 클럽과 라운지가 섞여 있는 지역입니다. 같은 클럽이라는 이름으로 묶이더라도 규모, 음악 성향, 입장 방식이 업소마다 크게 다르기 때문에 방문 목적에 맞춰 미리 유형을 구분해두는 편이 좋습니다.</p>
+ <article class="blog-article">
+ <header class="blog-header">
+ <p class="meta text-sm">지역정보 · 클럽 이용가이드</p>
+ <h1>망원동 클럽, 유형별로 나눠보면 이렇습니다</h1>
+ <p class="meta text-xs">망원 · 클럽 · 상권 안내</p>
+ </header>
+ <div class="blog-content">
+ <p>망원동은 홍대와 합정 상권을 걸어서 오갈 수 있는 위치 덕분에 다양한 성격의 클럽과 라운지가 섞여 있는 지역입니다. 같은 클럽이라는 이름으로 묶이더라도 규모, 음악 성향, 입장 방식이 업소마다 크게 다르기 때문에 방문 목적에 맞춰 미리 유형을 구분해두는 편이 좋습니다.</p>
 
-      <h2>망원동 클럽 유형 비교</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>구분</th>
-            <th>특징</th>
-            <th>확인할 점</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>대형 클럽</td>
-            <td>넓은 플로어와 다수의 부스, 주말 혼잡도가 높은 편</td>
-            <td>입장 대기시간, 드레스코드 여부</td>
-          </tr>
-          <tr>
-            <td>테마형 라운지</td>
-            <td>음악 장르나 인테리어 컨셉이 뚜렷한 소형 업소</td>
-            <td>운영 요일, 커버차지 유무</td>
-          </tr>
-          <tr>
-            <td>예약제 룸형</td>
-            <td>일행 단위로 공간을 분리해 이용하는 형태</td>
-            <td>최소 인원, 사전 예약 필요 여부</td>
-          </tr>
-        </tbody>
-      </table>
+ <h2>망원동 클럽 유형 비교</h2>
+ <table>
+ <thead>
+ <tr>
+ <th>구분</th>
+ <th>특징</th>
+ <th>확인할 점</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>대형 클럽</td>
+ <td>넓은 플로어와 다수의 부스, 주말 혼잡도가 높은 편</td>
+ <td>입장 대기시간, 드레스코드 여부</td>
+ </tr>
+ <tr>
+ <td>테마형 라운지</td>
+ <td>음악 장르나 인테리어 컨셉이 뚜렷한 소형 업소</td>
+ <td>운영 요일, 커버차지 유무</td>
+ </tr>
+ <tr>
+ <td>예약제 룸형</td>
+ <td>일행 단위로 공간을 분리해 이용하는 형태</td>
+ <td>최소 인원, 사전 예약 필요 여부</td>
+ </tr>
+ </tbody>
+ </table>
 
-      <div class="tip-box">
-        <h2>방문 전 알아두면 좋은 정보</h2>
-        <p>업소별로 영업시간과 정기 휴무일이 다르고, 요일에 따라 운영 방식을 다르게 가져가는 곳도 많습니다. 방문 전 전화로 당일 운영 여부와 인원 제한, 동반 인원 규정을 확인해두면 헛걸음을 줄일 수 있습니다. 요금 체계 역시 테이블 이용 여부, 인원수, 시간대에 따라 달라지므로 현장에서 직원에게 정확한 안내를 받는 것이 가장 정확합니다.</p>
-      </div>
+ <div class="tip-box">
+ <h2>방문 전 알아두면 좋은 정보</h2>
+ <p>업소별로 영업시간과 정기 휴무일이 다르고, 요일에 따라 운영 방식을 다르게 가져가는 곳도 많습니다. 방문 전 전화로 당일 운영 여부와 인원 제한, 동반 인원 규정을 확인해두면 헛걸음을 줄일 수 있습니다. 요금 체계 역시 테이블 이용 여부, 인원수, 시간대에 따라 달라지므로 현장에서 직원에게 정확한 안내를 받는 것이 가장 정확합니다.</p>
+ </div>
 
-      <div class="highlight">
-        <h2>이런 점은 특히 확인하세요</h2>
-        <ul>
-          <li>사업자 등록과 영업 허가 여부가 명확한 업소인지</li>
-          <li>주차 공간 유무와 대중교통 접근성</li>
-          <li>동행 인원에 대한 입장 기준 및 신분증 확인 절차</li>
-          <li>비상시 대응을 위한 업소 내 안전 인력 배치 여부</li>
-        </ul>
-      </div>
+ <div class="highlight">
+ <h2>이런 점은 특히 확인하세요</h2>
+ <ul>
+ <li>사업자 등록과 영업 허가 여부가 명확한 업소인지</li>
+ <li>주차 공간 유무와 대중교통 접근성</li>
+ <li>동행 인원에 대한 입장 기준 및 신분증 확인 절차</li>
+ <li>비상시 대응을 위한 업소 내 안전 인력 배치 여부</li>
+ </ul>
+ </div>
 
-      <p>망원동 상권은 골목마다 업소 밀집도가 다르기 때문에 처음 방문한다면 큰길가에서 가까운 곳부터 확인하는 편이 동선상 유리합니다. 최신 운영 정보는 수시로 바뀔 수 있으므로 방문 당일 다시 한 번 전화로 확인하는 것을 권장합니다.</p>
-    </div>
+ <p>망원동 상권은 골목마다 업소 밀집도가 다르기 때문에 처음 방문한다면 큰길가에서 가까운 곳부터 확인하는 편이 동선상 유리합니다. 최신 운영 정보는 수시로 바뀔 수 있으므로 방문 당일 다시 한 번 전화로 확인하는 것을 권장합니다.</p>
+ </div>
 
-    <footer class="blog-footer">
-      <p class="tags">#망원클럽 #망원동유흥 #클럽정보 #망원동상권</p>
-      <p class="meta">문의 전화 <a class="tel-link" href="tel:02-123-4567">02-123-4567</a></p>
-    </footer>
-  </article>
+ <footer class="blog-footer">
+ <p class="tags">#망원클럽 #망원동유흥 #클럽정보 #망원동상권</p>
+ <p class="meta">문의 전화 </p>
+ </footer>
+ </article>
 </main>
 
 
